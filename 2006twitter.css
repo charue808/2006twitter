@@ -1,0 +1,127 @@
+/* CSS declarations go here */
+.nav-bar.header {
+    margin-top: 20px;
+    background-color: White;
+    border-radius: 15px;
+    
+}
+
+#logo {
+     margin-left: 20px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     
+   
+}
+.span4 {
+  width: 600px;
+  background-color: White;
+}
+
+
+.span4 h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.span4 h5 {
+  margin: 0px;
+  padding: 10px;
+  color: blue;
+}
+
+.well {
+  height: 183px;
+  width: 540px;
+  margin-left: 1px;
+  margin-bottom: 10px;
+}
+
+#textBox {
+  background-image: url('../image/Twitterbox1.png');
+  background-repeat: no-repeat;
+  height: 182px;
+  width:  539px;
+  
+  
+}
+
+.table td {
+  vertical-align: middle;
+  line-height: 1;
+}
+
+td#post {
+  padding-left: 0px;
+}
+
+a#postInfo {
+  font-size: 10px;
+}
+
+
+.table img {
+  width: 50px;
+}
+
+.span2 {
+   
+    padding: 5px;
+    background-color: PaleGreen;
+}
+
+.form-horizontal {
+   margin-bottom: 0px;
+}
+
+#signUp {
+  background-color: White;
+  padding: 7px;
+  text-align: center;
+}
+
+#signUp h6 {
+  
+  margin-bottom: 0px;
+}
+
+#signUp h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+ 
+}
+
+#featured {
+  padding: 2px;
+  background-color: White;
+  text-align:left;
+  
+}
+
+#featured h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#featured ul {
+  margin-left: 0px;
+}
+
+#featured li {
+  list-style-type: none;
+  padding-left: 0;
+  text-align:left;
+  font-size: 12px;
+  
+}
+
+#featured img {
+  width: 24px;
+}
+
+body {
+  background-image: url('../image/yck4bX7cE.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
