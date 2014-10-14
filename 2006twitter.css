@@ -39,13 +39,53 @@
 }
 
 #textBox {
-  background-image: url('../image/Twitterbox1.png');
-  background-repeat: no-repeat;
+  /*background-image: url('../image/Twitterbox1.png');
+  background-repeat: no-repeat; */
   height: 182px;
   width:  539px;
-  
+}
+
+#theImage {
+  position: absolute;
+   height: 182px;
+  width:  539px;
+}
+
+
+#howTo {
+  position: absolute;
+  height: 100px;
+  width: 190px;
+  margin-top: 27px;
+  margin-left: 60px;
+  background-color: Green;  
+}
+
+#thetextBox {
+  position: absolute;
+  margin-top: 3px;
   
 }
+
+.btn-group {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 10px;
+}
+
+
+
+
+#helperIcon {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 65px;
+}
+
+#helperIcon img {
+  width: 30px;
+} 
+
 
 .table td {
   vertical-align: middle;
@@ -71,9 +111,7 @@ a#postInfo {
     background-color: PaleGreen;
 }
 
-.form-horizontal {
-   margin-bottom: 0px;
-}
+
 
 #signUp {
   background-color: White;
