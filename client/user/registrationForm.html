@@ -1,0 +1,34 @@
+<template name="registrationForm">
+   <form id="signUpForm" class="sign-up-form form-horizontal" action="/sign-up" method="post">
+      
+    <div class="form-group">
+      <label for="signUpEmail" class="control-label col-xs-2"><b>Email</b></label>
+        <div class="col-xs-10">
+            <input type="text" class="email form-control" id="signUpEmail" placeholder="Email">
+        </div>
+    </div>
+         
+    <div class="form-group">
+      <label for="signUpPassword" class="control-label col-xs-2"><b>Password</b></label>
+        <div class="col-xs-10">
+            	<input class="password" id="signUpPassword" name="Password" placeholder="Password" type="password">
+        </div>
+    </div>
+     
+     <div class="form-group">
+      <label for="signUpPasswordConfirm" class="control-label col-xs-2"><b>Confirm Password</b></label>
+        <div class="col-xs-10">
+            <input class="password-confirm" id="signUpPasswordConfirm" name="password-confirm" placeholder="Confirm Password" type="password">
+        </div>
+    </div>
+     
+     <div class="form-group"> 
+       <div class="col-xs-10">
+        <input class="btn-submit" type="submit" value="Submit">
+       </div>
+     </div>
+  </form>
+</template>
+
+
+
